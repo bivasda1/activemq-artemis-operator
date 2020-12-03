@@ -59,8 +59,8 @@ docker build -f build/Dockerfile -t activemq-artemis-operator:latest .
 #HOST=$(oc get route default-route -n openshift-image-registry --template='{{ .spec.host }}')
 
 #docker tag activemq-artemis-operator:latest $HOST/activemq-artemis-operator/activemq-artemis-operator:latest
-#docker tag quay.io/artemiscloud/activemq-artemis-broker:0.1.0 $HOST/activemq-artemis-operator/activemq-artemis-broker:0.1.0
+#docker tag quay.io/artemiscloud/activemq-artemis-broker:0.2.0 $HOST/activemq-artemis-operator/activemq-artemis-broker:0.2.0
 #docker login -u kubeadmin -p $(oc whoami -t) $HOST
 #docker push $HOST/activemq-artemis-operator/activemq-artemis-operator:latest
-#docker push $HOST/activemq-artemis-operator/activemq-artemis-broker:0.1.0
+#docker push $HOST/activemq-artemis-operator/activemq-artemis-broker:0.2.0
 
