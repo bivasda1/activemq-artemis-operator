@@ -42,7 +42,7 @@ git add .
 git commit -m "image.yaml modified"
 
 # Building Image
-cekit build buildah
+cekit build docker
 
 #Building Image ActiveMQ Operator
 #----------------------------------
