@@ -21,7 +21,7 @@ vi deploy/crs/broker_activemqartemis_cr.yaml
  oc new-project <project_name>
  ```
  7.Switch to an existing project:
- ``bash
+ ```bash
  oc project <project_name>
  ```
  8.Create the service account in your project
