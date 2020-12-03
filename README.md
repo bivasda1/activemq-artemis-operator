@@ -9,8 +9,8 @@ oc get is
 oc describe <name>
 ```
 3.Modify/Override default images in operator.yaml and broker_activemqartemis_cr.yaml 
-4.Replace activemq-artemis-operator and activemq-artemis-broker-kubernetes image using our build image
-5.Replace activemq-artemis-broker-kubernetes deploy/crs/broker_activemqartemis_cr.yaml
+Replace activemq-artemis-operator and activemq-artemis-broker-kubernetes image using our build image
+Replace activemq-artemis-broker-kubernetes deploy/crs/broker_activemqartemis_cr.yaml
 
 ```bash
 vi activemq-artemis-operator/deploy/operator.yaml
