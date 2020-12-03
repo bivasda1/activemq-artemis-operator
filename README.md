@@ -38,15 +38,15 @@ vi deploy/crs/broker_activemqartemis_cr.yaml
  ```
  11. Deploy the main broker CRD.
  ```bash
- oc create -f deploy/crds/broker_v2alpha1_activemqartemis_crd.yaml
+ oc create -f deploy/crds/broker_activemqartemis_crd.yaml
  ```
  12.Deploy the addressing CRD.
  ```bash
- oc create -f deploy/crds/broker_v2alpha1_activemqartemisaddress_crd.yaml
+ oc create -f deploy/crds/broker_activemqartemisaddress_crd.yaml
  ```
  13.Deploy the scaledown controller CRD.
  ```bash
- oc create -f deploy/crds/broker_v2alpha1_activemqartemisscaledown_crd.yaml
+ oc create -f deploy/crds/broker_activemqartemisscaledown_crd.yaml
  ```
  14.Deploy the Operator.
  ```bash
